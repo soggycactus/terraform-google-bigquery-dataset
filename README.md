@@ -9,6 +9,13 @@ See the official GCP BigQuery module [here](https://github.com/terraform-google-
 Basic usage of this module is as follows:
 
 ```hcl
+provider "google-beta" {
+  alias   = "warehouse"
+  project = var.warehouse_project_id
+  region  = "us-west1"
+  version = "~> 2.20.0"
+}
+
 module "test_dataset" {
   source     = "./dataset"
   dataset_id = "<NAME OF DATASET>"
