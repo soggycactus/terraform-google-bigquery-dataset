@@ -17,7 +17,7 @@ provider "google-beta" {
 }
 
 module "test_dataset" {
-  source     = "./dataset"
+  source     = "./terraform-google-bigquery-dataset"
   dataset_id = "<NAME OF DATASET>"
 
   dataset_roles = [
