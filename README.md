@@ -11,7 +11,7 @@ Basic usage of this module is as follows:
 ```hcl
 provider "google-beta" {
   alias   = "warehouse"
-  project = var.warehouse_project_id
+  project = <PROJECT ID>
   region  = "us-west1"
   version = "~> 2.20.0"
 }
