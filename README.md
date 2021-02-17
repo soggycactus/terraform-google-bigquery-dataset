@@ -1,3 +1,5 @@
+# ARCHIVED - this repository has been deprecated in favor of [terraform-google-bigquery](https://github.com/terraform-google-modules/terraform-google-bigquery)
+
 # BigQuery Dataset module
 
 This module allows you to create opinionated Google Cloud Platform BigQuery datasets. A Dataset consists of the dataset itself, tables, and views.
